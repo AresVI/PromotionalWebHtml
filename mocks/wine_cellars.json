@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "cuit": 20346251738,
+    "name": "Bodega Morcos",
+    "qualification": 0,
+    "auditDate": "01/10/2017"
+  },
+  {
+    "id": 2,
+    "cuit": 20346251728,
+    "name": "Bodega Los Aroldos",
+    "qualification": 3,
+    "auditDate": "02/10/2017"
+  }
+]
