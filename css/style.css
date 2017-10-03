@@ -519,6 +519,17 @@ h6 {
 .home .hero-txt .hero-img {
   margin-top: 80px;
 }
+.home1 {
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  padding: 45px 0;
+  position: relative
+  /* Temp CSS */
+  /* Temp CSS End */
+}
 .st-highlight {
   color: #4ecdc4;
 }
@@ -1603,7 +1614,7 @@ textarea.formFieldError {
   border-color: #e34444 !important;
 }
 footer.site-footer {
-  background-color: #fcfcfc;
+  background-color: #190707;
   padding: 10px 0;
   color: #9f9f9f;
   font-size: 13px;
