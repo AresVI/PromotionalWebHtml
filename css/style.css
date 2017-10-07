@@ -1698,3 +1698,134 @@ footer.site-footer a:hover {
     left: -.5em;
     border-left-color: #790455;             
 }
+.home1 {
+  /*background-image: url(../images/hero-img9.jpg);*/
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  padding: 45px 0;
+  position: relative
+  /* Temp CSS */
+  /* Temp CSS End */
+}
+.home1 .st-brand {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.home1 .st-home-unit {
+  position: relative;
+}
+.home1 .hero-txt {
+  color: #fff;
+  text-align: center;
+}
+.home1 .hero-txt .hero-title {
+  font-family: "Oswald";
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  word-spacing: 4px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 20px 10px;
+}
+.home1 .hero-txt .hero-work {
+  font-family: "Oswald";
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.home1 .hero-txt .hero-work:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 4px;
+  margin: 20px auto 0;
+  background-color: transparent;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.home1 .hero-txt a.btn {
+  text-transform: uppercase;
+}
+.home1 .hero-txt a.btn.left-btn {
+  margin-right: 20px !important;
+}
+.home1 .hero-txt .hero-sub-title {
+  font-family: "Oswald";
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+.home1 .hero-txt .hero-img {
+  margin-top: 80px;
+}
+.section-title1 {
+  margin-bottom: 70px;
+}
+.section-title1 h3 {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #790455;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 28px;
+  line-height: 48px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  clear: both;
+  position: relative;
+  padding: 0 10px;
+}
+.section-title1 p {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #790455;
+  font-size: 38px;
+  line-height: 8px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.section-title1.st-center {
+  text-align: center;
+}
+.section-title1.st-center:before {
+  margin: auto;
+}
+.section-title1:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 51px;
+  background-image: url(../photos/Ares_miniLogoColor.png);
+  background-repeat: no-repeat;
+}
+footer.site-footer1 {
+  background-color: #000000;
+  padding: 10px 0;
+  color: #9f9f9f;
+  font-size: 13px;
+  text-align: center;
+}
+footer.site-footer1 a {
+  color: #808080;
+}
+footer.site-footer1 a:hover {
+  color: #790455;
+}
+.certificate1 {
+  background-image: url(../photos/AresVI_Certificate_Violet.png);
+  background-position: top center;
+  background-size: cover;
+  padding: 150px 0 100px;
+  margin: 0;
+  border-width:0;
+}
