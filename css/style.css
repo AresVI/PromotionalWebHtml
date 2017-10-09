@@ -297,6 +297,19 @@ h6 {
   border-color: #CA178E;
   color: #fff;
 }
+.btn-main2 {
+  margin-top: 30px;
+  color: #fff;
+  background-color: #790455;
+  border-color: #790455;
+}
+.btn-main2:hover,
+.btn-main2:focus,
+.btn-main2:active {
+  background-color: #CA178E;
+  border-color: #CA178E;
+  color: #fff;
+}
 .btn-link {
   font-weight: 400;
   color: #790455;
@@ -587,12 +600,12 @@ h6 {
 .navbar-default .navbar-nav > li.active a:hover,
 .navbar-default .navbar-nav > li.active a:focus,
 .navbar-default .navbar-nav > li.active a:active {
-  color: #790455;
+  color: #FE2EF7;
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #790455;
+  color: #FE2EF7;
 }
 .page-header {
   background-image: url(../images/hero-img14.png);
@@ -1613,7 +1626,7 @@ footer.site-footer a {
   color: #808080;
 }
 footer.site-footer a:hover {
-  color: #790455;
+  color: #FE2EF7;
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
@@ -1641,7 +1654,7 @@ footer.site-footer a:hover {
   }
 }
 #lista3 {
-    counter-reset: li; 
+    counter-reset: li;
     list-style: none; 
     *list-style: decimal; 
     font: 15px 'trebuchet MS', 'lucida sans';
@@ -1819,13 +1832,21 @@ footer.site-footer1 a {
   color: #808080;
 }
 footer.site-footer1 a:hover {
-  color: #790455;
+  color: #FE2EF7;
+}
+.focus-light-violet {
+  color: #FFFFFF;
+}
+.focus-light-violet:hover {
+  color: #FE2EF7;
 }
 .certificate1 {
-  background-image: url(../photos/AresVI_Certificate_Violet.png);
-  background-position: top center;
-  background-size: cover;
-  padding: 150px 0 100px;
+  background-image: url(../photos/AresVI_Certificate2.png);
+  /*background: url(http://rasielectrodes.com/assets/Certification-Logo.jpg);*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 15px 0 10px;
   margin: 0;
   border-width:0;
 }
