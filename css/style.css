@@ -16,6 +16,7 @@ body {
     line-height: 26px;
     word-spacing: 2px;
     -webkit-font-smoothing: antialiased;
+    min-height: 100%;
 }
 p {
     margin-bottom: 26px;
@@ -1846,13 +1847,23 @@ footer.site-footer1 a:hover {
 .focus-light-violet:hover {
     color: #FE2EF7;
 }
+
+.certification{
+    margin-top: 50px;
+}
+
+.certification h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: "Open Sans";
+}
+
 .certificate1 {
-    background-image: url(../images/AresVI_Certificate2.png);
-    /*background: url(http://rasielectrodes.com/assets/Certification-Logo.jpg);*/
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../images/certification_bg.jpg) no-repeat center;
     background-size: contain;
-    padding: 15px 0 10px;
-    margin: 0;
-    border-width:0;
+    padding: 10px;
+    margin: 5px;
+    border: solid 4px #790455;
+    min-height: 100%;
+
 }
