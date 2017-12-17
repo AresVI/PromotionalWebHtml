@@ -1867,3 +1867,23 @@ footer.site-footer1 a:hover {
     min-height: 100%;
 
 }
+
+
+#download_widget{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+    box-shadow: 0 0 5px rgba(121, 4, 85, 0.72);
+    color: #790455;
+    transition: linear all 0.5s;
+}
+
+#download_widget:hover{
+    box-shadow: 0 0 10px #790455;
+    transition: linear all 0.5s;
+}
+
+.modal-header .close {
+    margin-top: -18px;
+}
