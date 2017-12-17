@@ -16,6 +16,7 @@
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<link href="css/owl.theme.css" rel="stylesheet">
 		<link href="css/owl.transitions.css" rel="stylesheet">
+		<link href="css/sweetalert.css" rel="stylesheet">
 
 		<link href="css/style.css" rel="stylesheet">
 
@@ -49,6 +50,12 @@
 			</nav>
 		</header>
 
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+
 		<section class="home1" id="header" data-stellar-background-ratio="0.4"></section>
 
 		<section class="certification" id="certification">
@@ -61,17 +68,20 @@
 					<div class="text-center">
 						<div class="certificate1 mb100">
 							<br><br/><br><br/>
-							<span style="font-size:45px; font-weight:bold; color:#190707">CERTIFICADO DE CALIDAD</span><br>
+							<span style="font-size:45px; font-weight:bold; color:#190707">CERTIFICADO DE NIVEL DE TRAZABILIDAD</span><br>
 							<span style="font-size:100px"><i></i></span>
 							<span style="font-size:25px; color:#190707" id="certification_company_identification"><i>C.U.I.T. xx-xxxxxxxx-x</i></span>
 							<br><br>
 						    <span style="font-size:45px; color:#190707" id="certification_company_name"><b>--</b></span><br/><br/>
 							<span style="font-size:35px; color:#190707" id="certification_category"><i>Cagegoría</i></span> <br/><br/>
 							<span style="font-size:25px; color:#190707"  id="certification_date">Fecha de Auditoría</span> <br/>
-							<span style="font-size:15px; color:#190707"><i>Esta Auditoría se encuentra sujeta  a 2 años de validez.</i></span><br><br/>
+							<span style="font-size:15px; color:#190707"><i>Esta auditoría tiene una validez de 6 meses.</i></span><br><br/>
 							<span style="font-size:200px"><i></i></span><br><br/>
-						<button type="button" id="download_widget">
+						<button type="button" id="download_widget" class="certification-button">
 							Descargar Widget
+						</button>
+						<button type="button" id="another_search" class="certification-button">
+							Buscar nuevamente
 						</button>
 						</div>
 					</div>
@@ -102,27 +112,20 @@
 
       			<div class="modal-body">
 
-					<pre class="scroll notranslate" translate="no" style="padding: 0; height: 54px; overflow: hidden;">
-				   		<snippet id="snippet" highlight-content="" site-id="435800" site-name="http://www.aresvi.com">
-	&lt;div id=&quot;aresvi&quot;&gt;&lt;/div&gt;
+					<pre class="scroll notranslate" translate="no" id="snippet_html">
+				   		<snippet id="snippet" highlight-content="" site-name="http://www.aresvi.com">
+	&lt;!-- aresvi script http://www.aresvi.com --&gt;
+	&lt;div id="aresvi" data-cuit="xx-xxxxxxxx-x"&gt;&lt;/div&gt;
 				   		</snippet>
 			   		</pre>
 
 				   	<pre class="scroll notranslate" translate="no">
-				   		<snippet id="snippet" highlight-content="" site-id="435800" site-name="http://www.aresvi.com">
-	&lt;!-- aresvi Tracking Code for http://www.aresvi.com --&gt;
-	&lt;script&gt;
-		(function(a,r,e,s,v,i){
-		    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-		    h._hjSettings={hjid:435800,hjsv:6};
-		    a=o.getElementsByTagName('head')[0];
-		    r=o.createElement('script');r.async=1;
-		    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-		    a.appendChild(r);
-		})(window,document,'https://static.aresvi.com/c/aresvi-','.js?sv=');
-	&lt;/script&gt;
+				   		<snippet id="snippet" highlight-content="" site-name="http://www.aresvi.com">
+	&lt;!-- aresvi script http://www.aresvi.com --&gt;
+	&lt;script src="http://165.227.89.229/js/aresvi_widget.js"&gt;&lt;/script&gt;
 						</snippet>
 					</pre>
+
 		    	</div>
 		    </div>
 		  </div>
@@ -141,6 +144,7 @@
 		<script src="js/jquery.shuffle.js"></script>
 		<script src="js/owl.carousel.js"></script>
 		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script src="js/sweetalert.js"></script>
 		<script src="js/script.js"></script>
 		<script src="js/script.certifications.js"></script>
 	</body>

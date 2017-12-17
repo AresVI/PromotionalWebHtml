@@ -46,7 +46,9 @@
                 $(link_aresvi).append("<span>" + data.category + "</span>");
                 $(link_aresvi).append("<img src='http://165.227.89.229/images/Ares_logoBlanco.png'>");
                 $(aresvi).append(link_aresvi);
-            })
+            }).fail(function(){
+                $(aresvi).remove();
+            });
 
         });
     }
