@@ -1,0 +1,7 @@
+version: '2'
+services:
+    aresvi-web:
+        image: aresvi/promotional_web:latest
+        container_name: promotional_web
+        ports:
+            - 80:80

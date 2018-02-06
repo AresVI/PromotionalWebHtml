@@ -12,7 +12,7 @@ var certification = (function () {
         "category": "-"
     };
     var company_identifier = "";
-    const BASE_API_URL = "http://165.227.89.229:8080/api/search_result/"
+    const BASE_API_URL = "http://localhost:8080/api/search_result/";
 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
